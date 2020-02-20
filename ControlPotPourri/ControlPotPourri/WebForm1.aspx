@@ -16,56 +16,56 @@
                     <td>
                         <asp:TextBox ID="TextBoxFirstName" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Por favor informar seu nome"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Por favor informar seu nome" ControlToValidate="TextBoxFirstName"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
                     <td>Sobrenome</td>
                     <td>
                         <asp:TextBox ID="TextBoxLastName" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Por favor informar seu sobrenome"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Por favor informar seu sobrenome" ControlToValidate="TextBoxLastName"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
                     <td>Endereço</td>
                     <td>
                         <asp:TextBox ID="TextBoxAdress" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFie'ldValidator3" runat="server" ErrorMessage="Por favor informar seu endereço"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Por favor informar seu endereço" ControlToValidate="TextBoxAdress"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>CEP</td>
                     <td>
                         <asp:TextBox ID="TextBoxPostalCode" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Por favor informar seu CEP"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Por favor informar seu CEP" ControlToValidate="TextBoxPostalCode"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>Telefone</td>
                     <td>
                         <asp:TextBox ID="TextBoxPhone" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Por favor informar seu telefone"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Por favor informar seu telefone" ControlToValidate="TextBoxPhone"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>Senha</td>
                     <td>
                         <asp:TextBox ID="TextBoxPassword" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Por favor informar sua senha"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Por favor informar sua senha" ControlToValidate="TextBoxPassword"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>Confirmar senha</td>
                     <td>
                         <asp:TextBox ID="TextBoxPasswordAgain" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Por favor informar sua senha"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Por favor informar sua senha" ControlToValidate="TextBoxPasswordAgain"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>Idade</td>
                     <td>
                         <asp:TextBox ID="TextBoxAge" runat="server"></asp:TextBox></td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Por favor informar sua idade"></asp:RequiredFieldValidator></td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Por favor informar sua idade" ControlToValidate="TextBoxAge"></asp:RequiredFieldValidator></td>
                 </tr>
                  <tr>
                     <td>

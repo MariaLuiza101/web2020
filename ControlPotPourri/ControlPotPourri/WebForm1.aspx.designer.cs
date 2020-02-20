@@ -69,13 +69,13 @@ namespace ControlPotPourri
         protected global::System.Web.UI.WebControls.TextBox TextBoxAdress;
 
         /// <summary>
-        /// Controle RequiredFie'ldValidator3.
+        /// Controle RequiredFieldValidator3.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFie'ldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
 
         /// <summary>
         /// Controle TextBoxPostalCode.
