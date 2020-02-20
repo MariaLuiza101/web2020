@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlORama", "WebApplication1\ControlORama.csproj", "{953BA340-3254-4855-B880-36A3CF0DF6C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPotPourri", "ControlPotPourri\ControlPotPourri.csproj", "{7FDCBFDF-4783-49FD-BC76-2D1A1E5915DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{953BA340-3254-4855-B880-36A3CF0DF6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{953BA340-3254-4855-B880-36A3CF0DF6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{953BA340-3254-4855-B880-36A3CF0DF6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{953BA340-3254-4855-B880-36A3CF0DF6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDCBFDF-4783-49FD-BC76-2D1A1E5915DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDCBFDF-4783-49FD-BC76-2D1A1E5915DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDCBFDF-4783-49FD-BC76-2D1A1E5915DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDCBFDF-4783-49FD-BC76-2D1A1E5915DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2A2C410F-805E-4DDF-A464-FCF0BCABEBFE}
+		SolutionGuid = {6D36DD20-53CB-4728-81AD-A8F9B06B47F7}
 	EndGlobalSection
 EndGlobal
