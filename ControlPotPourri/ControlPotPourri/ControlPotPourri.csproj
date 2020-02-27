@@ -70,6 +70,7 @@
     <Content Include="imagens\imagem1.jfif" />
     <Content Include="imagens\imagem2.jpg" />
     <Content Include="imagens\imagemcadastro.jfif" />
+    <Content Include="imagens\menu.jfif" />
     <Content Include="UseImageControls.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />

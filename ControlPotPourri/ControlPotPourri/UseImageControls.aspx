@@ -27,6 +27,12 @@
             <br />
             <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/imagens/imagemcadastro.jfif" OnClick="ImageButton2_Click" />
             <hr />
+
+            Menu de opções
+            <br />
+            <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="~/imagens/menu.jfif">
+                <asp:RectangleHotSpot Bottom="183" Left="155" Right="216" Top="10" NavigateUrl="WebForm1.aspx" />
+            </asp:ImageMap>
         </div>
     </form>
 </body>
