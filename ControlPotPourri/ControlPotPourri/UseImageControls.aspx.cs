@@ -16,7 +16,7 @@ namespace ControlPotPourri
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("~\\WebForm1.aspx");
+            Response.Redirect("~\\ValidateMe.aspx");
         }
     }
 }

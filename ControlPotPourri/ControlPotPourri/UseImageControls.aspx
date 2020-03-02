@@ -31,7 +31,7 @@
             Menu de opções
             <br />
             <asp:ImageMap ID="ImageMap1" runat="server" ImageUrl="~/imagens/menu.jfif">
-                <asp:RectangleHotSpot Bottom="183" Left="155" Right="216" Top="10" NavigateUrl="WebForm1.aspx" />
+                <asp:RectangleHotSpot Bottom="183" Left="155" Right="216" Top="10" NavigateUrl="ValidateMe.aspx" AlternateText="Cadastro" />
             </asp:ImageMap>
         </div>
     </form>

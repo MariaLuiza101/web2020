@@ -72,8 +72,10 @@
     <Content Include="imagens\imagemcadastro.jfif" />
     <Content Include="imagens\menu.jfif" />
     <Content Include="UseImageControls.aspx" />
+    <Content Include="UseMultiView.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="ValidateMe.aspx" />
+    <Content Include="UseTreeView.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,12 +86,26 @@
     <Compile Include="UseImageControls.aspx.designer.cs">
       <DependentUpon>UseImageControls.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="UseMultiView.aspx.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="UseMultiView.aspx.designer.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateMe.aspx.cs">
+      <DependentUpon>ValidateMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidateMe.aspx.designer.cs">
+      <DependentUpon>ValidateMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.designer.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
