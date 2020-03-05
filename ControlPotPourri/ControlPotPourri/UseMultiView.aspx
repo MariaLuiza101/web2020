@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UseMultiView.aspx.cs" Inherits="ControlPotPourri.UseMultiView" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UseMultiView.aspx.cs" Inherits="ControlPotPourri.UseMultiView" %>
 
 <!DOCTYPE html>
 

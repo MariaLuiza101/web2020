@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MasterPageSite.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #FF3300">
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%;">
+             
+                <tr>
+                    <td>
+                        <asp:Menu ID="Menu1" runat="server">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/UseMaster.aspx" Text="Página inicial" Value="Página inicial">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/WebFormProjetos.aspx" Text="Capitulos" Value="Capitulos"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/WebFormProjetos.aspx" Text="Projetos" Value="Projetos"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="133px" ImageUrl="~/imagens/banner.jpg" Width="265px" /></td>
+             
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
