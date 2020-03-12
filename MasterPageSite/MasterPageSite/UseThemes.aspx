@@ -13,7 +13,10 @@
             <h1>Teste de tema</h1>
             <asp:CheckBox ID="CheckBox1" runat="server" />
             <asp:Button ID="Button1" runat="server" Text="Button" />
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server"></asp:CheckBoxList>
+            <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                <asp:ListItem>opção1</asp:ListItem>
+                <asp:ListItem>opção2</asp:ListItem>
+            </asp:CheckBoxList>
         </div>
     </form>
 </body>
